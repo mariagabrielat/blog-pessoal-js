@@ -42,7 +42,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
     function handleLogout() {
         setUsuario({
-            id: 0,
+            id: null,
             nome: "",
             usuario: "",
             senha: "",
